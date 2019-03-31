@@ -1,0 +1,5 @@
+- name: ANSIBLE This role is being run by {{ ansible_user_id }}
+  debug: var=ansible_user_id
+
+- name: SYSTEM Upgrade all packages to the latest version
+  apt: update_cache=yes upgrade=safe

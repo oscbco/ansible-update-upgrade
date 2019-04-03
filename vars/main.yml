@@ -1,5 +1,0 @@
----
-ansible_user: "{{ useradmin }}"
-ansible_become: yes
-become_method: sudo
-become_user: root

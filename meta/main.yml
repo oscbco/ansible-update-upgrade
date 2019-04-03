@@ -1,15 +1,14 @@
 galaxy_info:
   author: Oscar Barrera
+  description: Role for updating and upgrading a Debian system
   role_name: update-upgrade
-  description: your description
   license: license (MIT)
 
   min_ansible_version: 2.4
   platforms:
-   - name: Debian
-     versions:
-     - 8
-     - 9
+  - name: Debian
+    versions:
+    - all
 
   galaxy_tags: []
 

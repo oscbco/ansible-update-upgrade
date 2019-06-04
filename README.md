@@ -9,8 +9,7 @@ Requirements
 
 Role Variables
 --------------
-These roles assume root has beed disabled.
-useradmin: User that replaced root
+
 
 Dependencies
 ------------
@@ -33,4 +32,4 @@ MIT
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+oscbco.me

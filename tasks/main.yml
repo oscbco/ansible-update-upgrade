@@ -1,2 +1,3 @@
-- name: SYSTEM Upgrade all packages to the latest version
+- name: SYSTEM Upgrade all packages to their latest version
   apt: update_cache=yes upgrade=safe
+  when: upgrade is defined
